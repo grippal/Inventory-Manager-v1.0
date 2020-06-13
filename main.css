@@ -1,0 +1,68 @@
+/* STYLES GO HERE */
+/* STYLES GO HERE */
+/* Table Styles */
+table {
+  border-collapse: collapse;
+}
+table th, table td {
+  border: 3px solid black;
+  text-align: center;
+  padding: 10px 20px;
+}
+table caption {
+  font-size: 24px;
+  padding: 12px;
+}
+
+div.add-form form ul, div.add-form form li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+div.add-form form ul li {
+  padding: 10px;
+}
+div.add-form form ul li input {
+  font-size: 14px;
+}
+div.add-form form ul li button {
+  padding: 5px;
+  font-size: 12px;
+  border: 2px solid black;
+  border-radius: 25px;
+}
+
+div.delete-button form button {
+  margin: 20px;
+  padding: 10px;
+  font-size: 12px;
+  border: 2px solid black;
+  border-radius: 25px;
+}
+
+/* STYLES GO HERE */
+body, html {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+  height: 100vh;
+  overflow-y: scroll;
+}
+body main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body main p {
+  font-size: 16px;
+}
+
+/* STYLES GO HERE */
+
+/*# sourceMappingURL=main.css.map */
