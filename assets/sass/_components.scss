@@ -1,0 +1,17 @@
+// File: _components.scss
+// anything reusable such as buttons, navbars, cards etc.
+
+/* STYLES GO HERE */
+
+
+div.delete-button {
+  form {
+    button {
+      margin: 20px;
+      padding: 10px;
+      font-size: 12px;
+      border: 2px solid black;
+      border-radius: 25px;
+    }
+  }
+}

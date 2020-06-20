@@ -9,6 +9,8 @@
 	 * @license GNU General Public License 2.0+
 	 */
 
+	namespace UniversalSeafood\InventoryManager\mysql;
+
 	include_once 'dbh.inc.php';
 	$delete= $_POST['row'];
 

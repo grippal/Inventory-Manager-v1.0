@@ -1,7 +1,11 @@
 // File: main.scss
 // this file should ONLY contain the imports for the above files
 
-@import 'src/sass/base';
-@import 'src/sass/components';
-@import 'src/sass/layout';
-@import 'src/sass/navigation';
+@import 'assets/sass/base';
+@import 'assets/sass/components';
+@import 'assets/sass/layout';
+@import 'assets/sass/navigation';
+@import 'assets/sass/components/menu';
+@import 'assets/sass/components/table';
+@import 'assets/sass/components/sidebar';
+@import 'assets/sass/components/form';

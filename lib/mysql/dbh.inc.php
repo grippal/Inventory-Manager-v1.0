@@ -9,6 +9,8 @@
 	 * @license GNU General Public License 2.0+
 	 */
 
+	namespace UniversalSeafood\InventoryManager\mysql;
+
 	$dbServername = "127.0.0.1";
 	$dbUsername = "root";
 	$dbPassword = "root";

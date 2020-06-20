@@ -1,37 +1,5 @@
 /* STYLES GO HERE */
 /* STYLES GO HERE */
-/* Table Styles */
-table {
-  border-collapse: collapse;
-}
-table th, table td {
-  border: 3px solid black;
-  text-align: center;
-  padding: 10px 20px;
-}
-table caption {
-  font-size: 24px;
-  padding: 12px;
-}
-
-div.add-form form ul, div.add-form form li {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
-div.add-form form ul li {
-  padding: 10px;
-}
-div.add-form form ul li input {
-  font-size: 14px;
-}
-div.add-form form ul li button {
-  padding: 5px;
-  font-size: 12px;
-  border: 2px solid black;
-  border-radius: 25px;
-}
-
 div.delete-button form button {
   margin: 20px;
   padding: 10px;
@@ -54,15 +22,76 @@ body {
   height: 100vh;
   overflow-y: scroll;
 }
-body main {
+body div.grid-wrapper {
+  display: grid;
+  grid-template-rows: 10vh 10vh auto;
+  grid-template-columns: 10rem 1fr auto;
+  grid-template-areas: "header header header" "sidebar add-form add-form" "sidebar table table";
+}
+body div.grid-wrapper header {
+  grid-area: header;
+  display: flex;
+  background-color: navy;
+}
+body div.grid-wrapper div.sidebar {
+  grid-area: sidebar;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  background-color: aliceblue;
 }
-body main p {
+body div.grid-wrapper div.add-form {
+  grid-area: add-form;
+  display: flex;
+  flex-direction: column;
+  background-color: bisque;
+}
+body div.grid-wrapper div.add-form p {
   font-size: 16px;
+}
+body div.grid-wrapper div.table-wrapper {
+  grid-area: table;
+  display: flex;
+  flex-direction: column;
+  background-color: forestgreen;
 }
 
 /* STYLES GO HERE */
+/* Table Styles */
+table {
+  border-collapse: collapse;
+}
+table th, table td {
+  border: 3px solid black;
+  text-align: center;
+  padding: 10px 20px;
+}
+table caption {
+  font-size: 24px;
+  padding: 12px;
+}
+
+div.sidebar ul {
+  list-style-type: none;
+}
+div.sidebar ul li {
+  font-size: 1rem;
+  padding: 0.5rem 0rem;
+}
+
+div.add-form form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px;
+}
+div.add-form form input {
+  font-size: 14px;
+}
+div.add-form form button {
+  padding: 5px;
+  font-size: 12px;
+  border: 2px solid black;
+  border-radius: 25px;
+}
 
 /*# sourceMappingURL=main.css.map */

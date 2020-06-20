@@ -8,6 +8,9 @@
 	 * @link    https://github.com/grippal?tab=repositories
 	 * @license GNU General Public License 2.0+
 	 */
+
+	namespace UniversalSeafood\InventoryManager\mysql;
+
 	include_once 'dbh.inc.php';
 
 	$type = $_POST['type'];
